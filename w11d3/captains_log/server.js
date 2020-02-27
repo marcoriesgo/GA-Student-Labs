@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/logs', (req, res)=>{
-    res.send('new');
+app.get('/logs/new', (req, res)=>{
+    res.render('new.ejs');
 });
 
 
